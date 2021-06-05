@@ -1,13 +1,66 @@
-<!-- 
-1. Create a simple page having a header, main content, and a footer.
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment1 flex box</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container clearfix">
+			<a class="brand" href="#">
+				<img src="intel.jpg" alt="Brand Logo">
+			</a>
+			<nav class="nav">
+				<a href="#">Home</a>
+				<a href="#">Blog</a>
+				<a href="#">Gallery</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<article class="article">
+			<div class="container clearfix">
+				<div class="col article-col-right">
+					<h1 class="article-heading">This is the paragraph of mine</h1>
+					<p class="article-text"> 
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="col">
+					<img class="article-img" src="city.jpg" alt="blog" height="400" width="500">
+				</div>
+			</div>
+		</article>
 
-2. Inside the header keep the brand name to the left and all the navigation to the right.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Use flexbox properties and values to create columns.
- -->
+		<section class="gallery">
+			<div class="container">
+				<div class="col-1-3">
+					<img src="1.jpg" alt="1">
+				</div>
+				<div class="col-1-3">
+					<img src="2.jpg" alt="1">
+				</div>
+				<div class="col-1-3">
+					<img src="net.jpg" alt="1">
+				</div>
+				<div class="col-1-3">
+					<img src="jump.jpg" alt="1">
+				</div>
+				<div class="col-1-3">
+					<img src="city.jpg" alt="1">
+				</div>
+				<div class="col-1-3">
+					<img src="1.jpg" alt="1">
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer></footer>
+</body>
+</html>
