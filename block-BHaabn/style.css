@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: "Roboto Slab",serif;
+}
+/* container*/
+.container{
+	max-width: 1530px;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header{
+	background-color: #22396a;
+	padding: 32px 0;
+}
+
+.brand img{
+	width: 120px;
+}
+.nav{
+	float: right;
+	vertical-align: middle;
+}
+.nav a{
+	font-size: 20px;
+	text-transform: capitalize;
+	text-decoration: none;
+	color: green;
+	margin-left: 32px;
+}
+.gallery{
+	padding: 80px 0;
+}
+.gallery .flex{
+	flex-wrap: wrap;
+}
+.heading{
+	text-align: center;
+	color: #22396a;
+	font-size: 44px;
+	margin-bottom: 32px;
+}
+.col-1-3{
+	width: 30%;
+	margin: 16px 0;
+}
+.gallery img{
+	width: 100%;
+	border-radius: 8px;
+	border: 3px solid #22396a;
+	height: 300px;
+  -o-object-fit: cover;
+  	object-fit: cover;
+}
+.footer{
+	padding: 60px 0;
+	background-color: #22396a;
+
+}
+.footer a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 16px;
+	display: flex;
+	flex: row;
+	justify-content: flex-end;
+}
+small{
+	display: flex;
+	justify-content: flex-start;
+	color: white;
+	font-size: 16px;
+}
